@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Add Note Section -->
+    <label for="note-content">Note Content:</label>
+    <input type="text" id="note-content" />
+    <label for="note-category">Category:</label>
+    <select id="note-category">
+        <option value="Task">Task</option>
+        <option value="Random Thought">Random Thought</option>
+        <option value="Idea">Idea</option>
+    </select>
+    <button id="add-note">Add Note</button>
+
+    <!-- Notes Table -->
+    <table id="notes-table">
+        <thead>
+            <tr>
+                <th>Time of Creation</th>
+                <th>Note Content</th>
+                <th>Note Category</th>
+                <th>Dates Mentioned</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="notes-body"></tbody>
+    </table>
+
+    <!-- Summary Table -->
+    <table id="summary-table">
+        <thead>
+            <tr>
+                <th>Note Category</th>
+                <th>Active</th>
+                <th>Archived</th>
+            </tr>
+        </thead>
+        <tbody id="summary-body"></tbody>
+    </table>
+
+    <!-- Archived Notes Table -->
+    <table id="archived-notes-table">
+        <thead>
+            <tr>
+                <th>Time of Creation</th>
+                <th>Note Content</th>
+                <th>Note Category</th>
+                <th>Dates Mentioned</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="archived-notes-body"></tbody>
+    </table>
+    
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
