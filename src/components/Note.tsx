@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { editNote, archiveNote, unarchiveNote, removeNote } from "../actions/notesActions";
 import { NoteData } from "../types";
-
+import { formatDate } from "../utils/utils";
 
 interface NoteProps {
   note: NoteData;
@@ -43,7 +43,7 @@ const Note: React.FC<NoteProps> = ({ note }) => {
 
   return (
     <tr>
-      <td>{note.timeOfCreation.toLocaleString()}</td>
+      <td>{formatDate(note.timeOfCreation)}</td>
       <td>
         {isEditing ? (
           <>
