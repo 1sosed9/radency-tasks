@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/radency-tasks/static/css/main.0cef964f.css",
+    "main.js": "/radency-tasks/static/js/main.6cb4a3b3.js",
+    "index.html": "/radency-tasks/index.html",
+    "main.0cef964f.css.map": "/radency-tasks/static/css/main.0cef964f.css.map",
+    "main.6cb4a3b3.js.map": "/radency-tasks/static/js/main.6cb4a3b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cef964f.css",
+    "static/js/main.6cb4a3b3.js"
+  ]
+}
