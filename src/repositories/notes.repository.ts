@@ -1,8 +1,6 @@
-import { Note } from '../models/note.model';
+import { Note } from "../models/note.model";
 
-const notes: Note[] = [
-  // Моковані записи додаткових нотатків розміщуються тут...
-];
+const notes: Note[] = [];
 
 export const getAllNotes = (): Note[] => {
   return notes;
